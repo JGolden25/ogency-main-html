@@ -1,0 +1,14 @@
+# macOS
+.DS_Store
+
+# Firebase local cache / logs
+.firebase/
+firebase-debug.log
+firebase-debug.*.log
+
+# Editors
+.vscode/
+.idea/
+
+# Dependencies (none yet, but just in case)
+node_modules/
