@@ -8564,7 +8564,7 @@ h6 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom center;
-  background-image: url(../images/backgrounds/page-header-bg-overlay.png);
+  background-image: url(../images/backgrounds/page-header-bg-overlay.webp);
 }
 
 .page-header .container {

@@ -8630,7 +8630,7 @@ h6 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-image: url(../images/Video+Production+Shoot+with+Noble+Bison+Productions.jpeg);
+  background-image: url(../images/Video+Production+Shoot+with+Noble+Bison+Productions.webp);
 }
 
 .page-header__bg4 {
@@ -8674,7 +8674,7 @@ h6 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom center;
-  background-image: url(../images/backgrounds/page-header-bg-overlay.png);
+  background-image: url(../images/backgrounds/page-header-bg-overlay.webp);
 }
 
 .page-header .container {
@@ -11985,3 +11985,33 @@ body.boxed-wrapper .main-slider__one-item__content-curved-circle-box {
 body.boxed-wrapper .main-slider__one-item__shape-1 {
   display: none;
 }
+
+/* ---------------------------------------------------------------
+   Golden Age Films fixes (Oct 2026)
+   Keep photos from being stretched: crop to fill their box instead.
+---------------------------------------------------------------- */
+.about-one__thumb__img img,
+.team-card__image img,
+.project-card__image img,
+.blog-card__image img,
+.blog-list__image img {
+  object-fit: cover;
+}
+
+/* Blog post body styles (Golden Age Films) */
+.blog-details__content .gaf-subhead {
+  font-size: 24px;
+  margin: 34px 0 14px;
+  color: var(--ogency-white, #fff);
+}
+.blog-details__content .gaf-list {
+  margin: 0 0 24px;
+  padding-left: 20px;
+  color: var(--ogency-color, #9b9b9b);
+  line-height: 1.8;
+}
+.blog-details__content .gaf-list li { margin-bottom: 8px; }
+.blog-details__content .gaf-list strong,
+.blog-details__content .blog-details__text strong { color: var(--ogency-white, #fff); }
+.blog-details__content a:not(.blog-details__meta a) { text-decoration: underline; }
+.blog-details__content .gaf-note { font-size: 14px; opacity: .75; }
